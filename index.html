@@ -13,7 +13,7 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -29,7 +29,7 @@
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
@@ -37,14 +37,14 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Harold Hanson Profile Picture">
+            <img src="./assets/profile-good.jpg" alt="Harold Hanson Profile Picture" class="profile-pic">
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Harold Hanson</h1>
             <p class="section__text__p2">Software Engineer</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Download CV</button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
             </div>
             <div id="socials-container">
@@ -64,7 +64,7 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic">
+                <img src="./assets/duncan.jpg" alt="Profile picture" class="about-pic">
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
@@ -80,25 +80,29 @@
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Laboriosam rerum deleniti tempore tempora minima. 
-                        Quos assumenda quam repudiandae odio reprehenderit quidem optio praesentium, 
-                        excepturi, quas quaerat ratione at illo similique repellendus nobis 
-                        possimus a animi facilis fugit. Enim laborum totam iste ullam adipisci 
-                        obcaecati pariatur animi iusto labore, est recusandae.
+                    <p>
+                        I graduated from the University of Minnesota in December 2022, and since then I've
+                        been working full time as a software engineer. All of my professional experience
+                        has been as a .NET developer, primarily working on backend API development.
+                    </p>
+                    <br>
+                    <p>
+                        In my free time, I'm an avid weightlifter, and love competing in powerlifting 
+                        competitions. I also have a dog named "Duncan" (pictured left). He's a German 
+                        Shepherd/Pit Bull mix and a never ending bundle of energy.
                     </p>
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'"/>
     </section>
-    <section id="experience">
+    <section id="skills">
         <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
             <div class="about-containers">
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Languages</h2>
+                    <h2 class="skills-sub-title">Languages</h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
@@ -133,12 +137,12 @@
                     </div>
                 </div>
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frameworks</h2>
+                    <h2 class="skills-sub-title">Frameworks</h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
                             <div>
-                                <h3>ASP.NET Core</h3>
+                                <h3>.NET Core</h3>
                             </div>
                         </article>
                         <article>
@@ -150,7 +154,7 @@
                     </div>
                 </div>
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Dev Tools</h2>
+                    <h2 class="skills-sub-title">Dev Tools</h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
@@ -189,8 +193,83 @@
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
     </section>
     <section id="projects">
-        
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-img"/>
+                    </div>
+                    <h2 class="skills-sub-title project-title">Project 1</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/HaroldEHanson'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/HaroldEHanson'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-img"/>
+                    </div>
+                    <h2 class="skills-sub-title project-title">Project 1</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/HaroldEHanson'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/HaroldEHanson'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-img"/>
+                    </div>
+                    <h2 class="skills-sub-title project-title">Project 1</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/HaroldEHanson'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/HaroldEHanson'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
     </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:hankhanson317@gmail.com">hankhanson317@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/harold-hanson-252218185/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Harold Hanson. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
